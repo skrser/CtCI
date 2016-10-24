@@ -1,2 +1,1 @@
-# hello-world
-hello-world repo
+This is skrser's repo readme
