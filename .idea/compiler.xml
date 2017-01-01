@@ -9,14 +9,16 @@
         <module name="ctci1.1" />
         <module name="ctci1.2" />
         <module name="ctci1.3" />
-        <module name="ctcl1.4" />
+        <module name="ctci1.4" />
+        <module name="ctci1.5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ctci1.1" target="1.5" />
       <module name="ctci1.2" target="1.5" />
       <module name="ctci1.3" target="1.5" />
-      <module name="ctcl1.4" target="1.5" />
+      <module name="ctci1.4" target="1.5" />
+      <module name="ctci1.5" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
