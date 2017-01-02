@@ -6,6 +6,13 @@ package ru.skrser.ctci1dot6;
  */
 public class Solution {
 
+    /**
+     * Rotates clockwise square matrix, e.g. image.
+     * Computational complexity = O(n)
+     * Memory consumption = O(1)
+     *
+     * @param image square matrix to rotate
+     */
     public static void rotate(byte[][][] image) {
         if (image == null)
             return;

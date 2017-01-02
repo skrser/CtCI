@@ -45,4 +45,17 @@ public class SolutionTest {
         Solution.rotate(image);
         assertArrayEquals(rotatedImage, image);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testNonSquare() {
+        Solution.rotate(new byte[5][6][4]);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testRagged() {
+        byte[][][] raggedArray = new byte[2][][];
+        raggedArray[0] = new byte[2][4];
+        raggedArray[1] = new byte[3][4];
+        Solution.rotate(raggedArray);
+    }
 }
