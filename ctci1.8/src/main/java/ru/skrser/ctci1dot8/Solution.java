@@ -7,7 +7,7 @@ public class Solution {
      * using only one execution of given method "isSubstring".
      * Method is symmetric, i.e. isRotation(s1, s2) == isRotation(s2, s1)
      * Computational complexity = O(n^2)
-     * Memory consumption = O(1)
+     * Memory consumption = O(n)
      *
      * @param s1 first string
      * @param s2 second string
@@ -44,6 +44,18 @@ public class Solution {
             return i;
         else
             return -1;
+    }
+
+    public static boolean isRotationMoreElegant(String s1, String s2) {
+        if (s1 == null)
+            return s2 == null;
+        else if (s2 == null)
+            return false;
+        if (s1.equals(s2)) return true;
+        if (s1.length() != s2.length()) return false;
+
+        String s1s1 = s1 + s1;
+        return isSubstring(s1s1, s2);
     }
 
 }

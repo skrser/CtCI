@@ -8,7 +8,7 @@ public class Solution {
     /**
      * Compresses string, e.g. aaaabcc -> a4b1c2
      * Computational complexity = O(n)
-     * Memory consumption = O(1)
+     * Memory consumption = O(n)
      *
      * @param str string to compress
      * @return compressed string or original, if compressed is not smaller

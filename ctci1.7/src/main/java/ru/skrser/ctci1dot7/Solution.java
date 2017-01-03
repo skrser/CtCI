@@ -25,7 +25,12 @@ public class Solution {
         Set<Integer> nullableColumns = new HashSet<Integer>();
 
         findNullableRowsAndColumns(matrix, nullableRows, nullableColumns);
+        nullRowsAndColumns(matrix, nullableRows, nullableColumns);
+        // if we expect large amount of 0, it would be more effectively
+        // to use method nullRowsAndColumnsInSingleIteration
+    }
 
+    private static void nullRowsAndColumns(int[][] matrix, Set<Integer> nullableRows, Set<Integer> nullableColumns) {
         for (Integer nullableRow : nullableRows) {
             for (int j = 0; j < matrix[nullableRow].length; j++) {
                 matrix[nullableRow][j] = 0;
@@ -34,6 +39,15 @@ public class Solution {
         for (int i = 0; i < matrix.length; i++) {
             for (Integer nullableColumn : nullableColumns) {
                 matrix[i][nullableColumn] = 0;
+            }
+        }
+    }
+
+    private static void nullRowsAndColumnsInSingleIteration(int[][] matrix, Set<Integer> nullableRows, Set<Integer> nullableColumns) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (nullableRows.contains(i) || nullableColumns.contains(j))
+                matrix[i][j] = 0;
             }
         }
     }
