@@ -12,14 +12,15 @@ import static org.junit.Assert.assertFalse;
 public class SolutionTest {
 
     private final int LIST_SIZE = 50;
+    private final double DISPERSION = 0.4;
 
     private Node generateLinkedList() {
         Node head = new Node();
-        head.data = (int) (Math.random() * LIST_SIZE * 0.4);
+        head.data = (int) (Math.random() * LIST_SIZE * DISPERSION);
         Node previous = head;
         for (int i = 1; i < LIST_SIZE; i++) {
             Node node = new Node();
-            node.data = (int) (Math.random() * LIST_SIZE * 0.4);
+            node.data = (int) (Math.random() * LIST_SIZE * DISPERSION);
 
             previous.next = node;
             node.previous = previous;
