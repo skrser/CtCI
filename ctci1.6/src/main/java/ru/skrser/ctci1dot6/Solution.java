@@ -43,7 +43,6 @@ public class Solution {
 
         for (int i = 0; i < 3; i++) {
             nextX = image.length - 1 - prevY;
-            //noinspection SuspiciousNameCombination
             nextY = prevX;
             image[prevX][prevY] = image[nextX][nextY];
             prevX = nextX;
