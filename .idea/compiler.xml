@@ -21,6 +21,8 @@
         <module name="ctci2.5" />
         <module name="ctci2.6" />
         <module name="ctci2.7" />
+        <module name="ctci3.1" />
+        <module name="ctci3.2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +41,8 @@
       <module name="ctci2.5" target="1.5" />
       <module name="ctci2.6" target="1.5" />
       <module name="ctci2.7" target="1.5" />
+      <module name="ctci3.1" target="1.5" />
+      <module name="ctci3.2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
