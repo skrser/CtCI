@@ -1,5 +1,8 @@
 package ru.skrser.ctci3dot1;
 
+/**
+ * Multiple stack realisation using single array
+ */
 public class Solution {
 
     private final int STACKS_NUMBER = 3;
