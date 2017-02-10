@@ -58,10 +58,11 @@
         <option value="$PROJECT_DIR$/ctci2.7/pom.xml" />
         <option value="$PROJECT_DIR$/ctci3.1/pom.xml" />
         <option value="$PROJECT_DIR$/ctci3.2/pom.xml" />
+        <option value="$PROJECT_DIR$/ctci3.3/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
