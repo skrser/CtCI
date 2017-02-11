@@ -2,7 +2,10 @@ package ru.skrser.ctci3dot3;
 
 import java.util.*;
 
-public class SetOfStacks {
+/**
+ * Stack implementation using set of stacks wih limited capacity
+ */
+public class Solution {
 
     private static final int THRESHOLD = 10;
 
