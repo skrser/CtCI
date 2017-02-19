@@ -7,8 +7,8 @@ package ru.skrser.ctci1dot5;
 public class Solution {
     /**
      * Compresses string, e.g. aaaabcc -> a4b1c2
-     * Computational complexity = O(n)
-     * Memory consumption = O(n)
+     * Computational complexity = O(N)
+     * Memory consumption = O(N)
      *
      * @param str string to compress
      * @return compressed string or original, if compressed is not smaller

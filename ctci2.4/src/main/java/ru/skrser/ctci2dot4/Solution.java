@@ -5,7 +5,7 @@ public class Solution {
     /**
      * Partitions list, so values smaller then x would come before equal or greater.
      * Saves inner structure of list (order within groups).
-     * Computational complexity = O(n)
+     * Computational complexity = O(N)
      * Memory consumption = O(1)
      *
      * @param head reference to list's head node

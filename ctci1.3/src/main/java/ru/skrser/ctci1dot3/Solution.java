@@ -11,8 +11,8 @@ public class Solution {
 
     /**
      * Checks if one string is permutation of another
-     * Computational complexity = O(n)
-     * Memory consumption = O(n)
+     * Computational complexity = O(N)
+     * Memory consumption = O(N)
      *
      * @param s1 first string
      * @param s2 second string

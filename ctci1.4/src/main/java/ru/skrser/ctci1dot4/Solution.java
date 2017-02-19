@@ -9,7 +9,7 @@ public class Solution {
     /**
      * Replaces all spaces in given string (char array) to %20
      * Precondition: array has sufficient space (at the end) for replacement
-     * Computational complexity = O(n)
+     * Computational complexity = O(N)
      * Memory consumption = O(1)
      *
      * @param str mutable string (char array) with spaces

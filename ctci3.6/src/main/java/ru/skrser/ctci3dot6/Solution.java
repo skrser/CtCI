@@ -9,8 +9,8 @@ public class Solution {
 
     /**
      * Sort stack in ascending order using stacks
-     * Computation complexity = O(n^2)
-     * Memory consumption = O(n), no data copy, but in worst case n stacks is needed
+     * Computation complexity = O(N^2)
+     * Memory consumption = O(N), no data copy, but in worst case N stacks is needed
      *
      * @param stack to sort
      */

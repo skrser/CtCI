@@ -6,8 +6,8 @@ public class Solution {
      * Checks if one string is result of rotation of another (e.g. "result" and "sultre"),
      * using only one execution of given method "isSubstring".
      * Method is symmetric, i.e. isRotation(s1, s2) == isRotation(s2, s1)
-     * Computational complexity = O(n^2)
-     * Memory consumption = O(n)
+     * Computational complexity = O(N^2)
+     * Memory consumption = O(N)
      *
      * @param s1 first string
      * @param s2 second string

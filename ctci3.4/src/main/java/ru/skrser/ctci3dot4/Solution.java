@@ -7,8 +7,8 @@ public class Solution {
 
     /**
      * Tower of Hanoi puzzle
-     * Computation complexity = O(2^n)
-     * Memory consumption = O(n)
+     * Computation complexity = O(2^N)
+     * Memory consumption = O(N)
      *
      * @param source tower
      * @return target tower

@@ -6,9 +6,9 @@ import java.util.Deque;
 /**
  * Queue implementation using 2 stacks
  * <p>
- * Pushing, then polling n elements:
- * Computational complexity = O(n^2)
- * Memory consumption = O(n)
+ * Pushing, then polling N elements:
+ * Computational complexity = O(N^2)
+ * Memory consumption = O(N)
  */
 public class Solution implements MyQueue {
 

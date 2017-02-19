@@ -8,7 +8,7 @@ public class Solution {
 
     /**
      * Reverse null terminated array
-     * Computational complexity = O(n)
+     * Computational complexity = O(N)
      * Memory consumption = O(1)
      *
      * @param str char array to be reverted

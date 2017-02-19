@@ -4,7 +4,7 @@ public class Solution {
 
     /**
      * Returns Kth node from the end of list
-     * Computation complexity = O(n)
+     * Computation complexity = O(N)
      * Memory consumption = O(1)
      *
      * @param head reference to list's head node

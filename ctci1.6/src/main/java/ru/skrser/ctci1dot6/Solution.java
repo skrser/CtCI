@@ -8,7 +8,7 @@ public class Solution {
 
     /**
      * Rotates clockwise square matrix, e.g. image.
-     * Computational complexity = O(n), where n = N*N; N - side of the square
+     * Computational complexity = O(N), where N = M*M; M - side of the square
      * Memory consumption = O(1)
      *
      * @param image square matrix to rotate

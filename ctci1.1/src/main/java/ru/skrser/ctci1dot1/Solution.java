@@ -11,8 +11,8 @@ public class Solution {
 
     /**
      * Checks if str contains only unique characters
-     * Computational complexity = O(n)
-     * Memory consumption = O(n)
+     * Computational complexity = O(N)
+     * Memory consumption = O(N)
      *
      * @param str string to check
      * @return true if str contains only unique characters
@@ -33,7 +33,7 @@ public class Solution {
 
     /**
      * Checks if str contains only unique characters
-     * Computational complexity = O(n^2)
+     * Computational complexity = O(N^2)
      * Memory consumption = O(1)
      *
      * @param str string to check
