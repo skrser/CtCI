@@ -8,7 +8,7 @@ public class Solution {
      * Converts sorted array to binary search tree
      * Computation complexity = O(N)
      * Memory consumption = O(log N) (for stack)
-     * plus additional memory for Arrays.copyOfRange - could by reduced by implementing some kind of subarray method
+     * plus additional memory for Arrays.copyOfRange - could by reduced by implementing some kind of subArray method
      *
      * @param array source array
      * @return reference to target tree root
